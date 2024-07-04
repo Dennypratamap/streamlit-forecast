@@ -2,6 +2,7 @@ import pickle
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 model = pickle.load(open('prediksi_co2.sav', 'rb'))
 
