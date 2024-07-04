@@ -24,4 +24,7 @@ if st.button("Predict"):
         fig, ax = plt.subplots()
         df['CO2'].plot(style='--', color='gray', legend=True, label='known')
         pred['CO2'].plot(color='b', legend=True, label='Prediction')
+        ax.set_title("CO2 Prediction")
+        ax.set_xlabel("Year")
+        ax.set_ylabel("CO2 Levels")
         st.pyplot(fig)
