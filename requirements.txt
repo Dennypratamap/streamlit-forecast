@@ -3,6 +3,6 @@ pandas
 scikit-learn
 seaborn
 statsmodels
-streamlit
+streamlit==1.15.0
 matplotlib
 openpyxl
